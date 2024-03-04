@@ -1,10 +1,14 @@
+html {
+    font-size: 20px; /* All rem-based sizes will scale up proportionally */
+}
+
 body {
     font-family: Arial, sans-serif;
 }
 
 
 .container {
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
     text-align: center;
 }
@@ -39,4 +43,8 @@ body {
     height: auto;
     margin: 0 auto;
     display: block; /* This will center the image in its container */
+}
+
+.container, button, input, .filter-btn {
+    font-size: 1rem;
 }
