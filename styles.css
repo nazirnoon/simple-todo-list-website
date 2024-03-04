@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#filters {
+    margin: 10px 0;
+}
+
+.filter-btn {
+    margin-right: 5px;
+}
+
+.todo-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block; /* This will center the image in its container */
+}
